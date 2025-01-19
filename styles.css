@@ -104,30 +104,31 @@
 
 /* Edit these to match color scheme */
 .faq-section {
-            font-family: 'Poppins', sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: orchid;
+            font-family: 'Playfair Display';
+            margin: 10px;
+            padding: 0px;
+            background-color: rgba(100, 157, 38, 0.343);
             border-radius: 8px;
+            color:rgba(26, 82, 6, 0.36)
         }
         .faq-question {
             cursor: pointer;
             font-weight: bold;
             padding: 10px;
-            border: 1px solid purple;
+            border: 0.5px solid rgb(142, 165, 127);
             margin: 5px 0;
             border-radius: 5px;
             transition: background-color 0.3s ease;
-            color: purple;
+            color: rgba(48, 85, 21, 0.464);
         }
         .faq-question:hover {
-            background-color: rgb(200, 103, 197);
+            background-color: rgba(83, 145, 70, 0.462);
         }
         .faq-answer {
             display: none; /* Initially hidden */
             padding: 10px;
-            border-left: 3px solid purple;
+            border-left: 3px solid rgba(0, 69, 0, 0.539);
             margin: 0 5px 10px;
-            background-color: orchid;
+            background-color: rgba(197, 213, 167, 0.708);
             border-radius: 0 5px 5px 5px;
         }
