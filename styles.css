@@ -92,10 +92,49 @@
     background-color: #ddd;
   }
 
-  .mission {
-    font-family: scheherazade-new-regular;
-    
-  }
+  /*Mission CSS */
+.mission {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(100, 157, 38, 0.343);
+  border-style:double;
+  border-width: 10px;
+  border-color: rgba(74, 87, 65, 0.506);
+  border-radius: 10px;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  color: rgba(61, 86, 34, 0.341);
+}
+.text{
+  font-weight: 100;
+  padding: 20px;
+  position: absolute; top: 200px;
+  left: 1;
+  width: 50%;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 28px;
+  color:rgba(64, 95, 43, 0.575);
+  background-color:rgb(211, 226, 200);
+  border-radius:10px;
+}
+
+.image1{
+  padding: 5px;
+  float: right;
+  width: 25%;
+  position: absolute; top:253px; right:5px;
+}
+.image2{
+  padding: 5px;
+  float: right;
+  width: 25%;
+  position: absolute; top:253px; left:800px;
+}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
