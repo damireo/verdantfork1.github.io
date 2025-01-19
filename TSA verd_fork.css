@@ -101,3 +101,33 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+/* Edit these to match color scheme */
+.faq-section {
+            font-family: 'Poppins', sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: orchid;
+            border-radius: 8px;
+        }
+        .faq-question {
+            cursor: pointer;
+            font-weight: bold;
+            padding: 10px;
+            border: 1px solid purple;
+            margin: 5px 0;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            color: purple;
+        }
+        .faq-question:hover {
+            background-color: rgb(200, 103, 197);
+        }
+        .faq-answer {
+            display: none; /* Initially hidden */
+            padding: 10px;
+            border-left: 3px solid purple;
+            margin: 0 5px 10px;
+            background-color: orchid;
+            border-radius: 0 5px 5px 5px;
+        }
