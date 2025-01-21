@@ -1,0 +1,149 @@
+/* STYLE SECTIONING TAGS */
+* { 
+   margin: 0px;
+   padding: 0px;
+}
+
+
+body {
+  background-image: url("https://c.wallhere.com/photos/b5/9e/pond_forest_trees_nature-1034196.jpg!d");  
+}
+
+/*Heading One Taste the World*/
+h1 {
+  color: hsla(48, 45%, 68%, 0.87);
+  opacity: 0.6;
+  font-size: 58px;
+  padding-top: 1em;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: left;
+  position: absolute; right: 650px; top: 170px;
+  text-shadow: 
+    1px 1px 0 #43372d, 
+   -1px 1px 0 #e3ab6a5d,  
+    1px -1px 0 #f5dabe, 
+   -1px -1px 0 #d6be88b7; /* Creates a "border" illusion */
+}
+
+
+/*Heading Two Savor our World*/
+.subtitle{
+  text-align: center;
+  text-shadow: 
+    1px 1px 0 #43372d, 
+   -1px 1px 0 #e3ab6a5d,  
+    1px -1px 0 #f5dabe, 
+   -1px -1px 0 #d6be88b7; /* Creates a "border" illusion */
+   font-size: 58px;
+  padding-top: 20px;
+  color: #d2c389de;
+  position: absolute; left: 700px; top: 280px;
+  opacity: 0.6;
+  font-weight: 500;
+  font-style: italic;  
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.logo{
+  position: absolute; top: 320px; right: 540px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+img {
+  text-align: center;
+}
+
+
+.gpt {
+  max-width:20%;
+  border-radius: 25%;
+  text-align: center;
+}
+
+
+
+
+main {
+  text-align: center;
+  margin-top:0;
+  margin-bottom: 0;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+  /* For the Nav bar! */
+  .navbar {
+    list-style-type: none;
+    background-color: rgba(50, 40, 29, 0.486);  /* 50% opacity background */
+    overflow: hidden;
+    padding: 1em;
+    text-align: right;
+  }
+
+li {
+  display: inline;  
+}
+/*Nav bar Text Menu Rewards etc*/
+  .navbar a {
+    text-decoration: none;
+    color: hsla(47, 81%, 77%, 0.713);
+    font-size: 1.3em;
+    padding: 1em;
+    font-family: 'Playfair Display', serif;
+    text-align: center; /* Center the text inside the link */
+  }
+.navbar a:hover {
+  background-color: rgba(153, 140, 69, 0.484);
+}
+
+.copyright{
+  position: absolute; top: 780px; left:20px;
+}
+
+
+
+.flex-container {      
+  display: flex;       
+  flex-direction: row; 
+  flex-wrap: nowrap;   
+} 
+
+.flex-item {           
+  flex-basis: 100%;    
+  margin: 1%;          
+}
+
+  .faq-section {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: orchid;
+    border-radius: 8px;
+    max-width: 1500px; /* Constrain width */
+  }
+
+  .faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid purple;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    color: purple;
+    width: 100%; 
+  }
+
+  .faq-question:hover {
+    background-color: rgb(200, 103, 197);
+  }
+
+  .faq-answer {
+    display: none; 
+    padding: 10px;
+    border-left: 3px solid purple;
+    margin: 0 5px 10px;
+    background-color: orchid;
+    border-radius: 0 5px 5px 5px;
+  }
