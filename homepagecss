@@ -1,0 +1,176 @@
+/* STYLE SECTIONING TAGS */
+* { 
+   margin: 0px;
+   padding: 0px;
+}
+
+
+body {
+  background-image: url("assets/natureweb.jpg");  
+}
+
+/*Heading One Taste the World*/
+h1 {
+  color: #2f2c19;
+  font-size: 3em;
+  padding-top: 1em;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  text-shadow: 
+    1px 1px 0 #3d402b, 
+   -1px 1px 0 #3d402b,  
+    1px -1px 0 #3d402b, 
+   -1px -1px 0 #3d402b; /* Creates a "border" illusion */
+}
+
+
+/*Heading Two Savor our World*/
+.subtitle{
+  text-align: center;
+  text-shadow: 
+    1px 1px 0 #3d402b, 
+   -1px 1px 0 #3d402b,  
+    1px -1px 0 #3d402b, 
+   -1px -1px 0 #3d402b; /* Creates a "border" illusion */
+   font-size: 2em;
+  padding-top: 20px;
+  color: #b0d973;
+  font-weight: 500;
+  font-style: italic;  
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+img {
+  text-align: center;
+}
+
+
+.gpt {
+  max-width:20%;
+  border-radius: 25%;
+  text-align: center;
+}
+
+
+
+
+main {
+  text-align: center
+  margin-top:0;
+  margin-bottom: 0;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+  /* For the Nav bar! */
+  ul {
+    list-style-type: none;
+    background-color: rgb(105, 110, 78, 0.4);  /* 50% opacity background */
+    overflow: hidden;
+    padding: 1em;
+    text-align: right;
+  }
+
+li {
+  display: inline;  
+}
+/*Nav bar Text Menu Rewards etc*/
+  li a {
+    text-decoration: none;
+    color: #24ff14;
+    font-size: 1.3em;
+    padding: 1em;
+    font-family: 'Playfair Display', serif;
+    text-align: center; /* Center the text inside the link */
+  }
+li a:hover {
+  background-color: # white;
+}
+
+
+
+.flex-container {      
+  display: flex;       
+  flex-direction: row; 
+  flex-wrap: nowrap;   
+} 
+
+.flex-item {           
+  flex-basis: 100%;    
+  margin: 1%;          
+}
+/* Everything for the 2 buttons*/
+#factBtn {
+   background: rgba(212, 163, 125, 0.2);
+    border-style: none;
+    border-radius: 10px;
+  border: 2px solid rgba(162, 171, 116, 0.5); 
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Source Serif Pro', serif;
+    color: #CCD5AE;
+    font-size: 1em;
+  }
+
+  /* Everything for the background of 2 buttons*/
+.genFact {
+  background: #5d3c3c;
+  border-radius: 4px;
+  border-style: solid;
+
+  padding: 5px;
+
+  margin-top: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #3a4035; /* Border of the box*/
+}
+
+
+
+
+  /* Logo styling */
+  .logo {
+    height: 30px;        
+    margin-right: 500px;  
+  }
+
+  .faq-section {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: orchid;
+    border-radius: 8px;
+    max-width: 1500px; /* Constrain width */
+  }
+
+  .faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid purple;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    color: purple;
+    width: 100%; 
+  }
+
+  .faq-question:hover {
+    background-color: rgb(200, 103, 197);
+  }
+
+  .faq-answer {
+    display: none; 
+    padding: 10px;
+    border-left: 3px solid purple;
+    margin: 0 5px 10px;
+    background-color: orchid;
+    border-radius: 0 5px 5px 5px;
+  }
