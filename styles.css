@@ -63,7 +63,7 @@
   
   /* Add a green background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn, .navbar b:hover {
-    background-color: rgba(153, 140, 69, 0.484);
+    background-color: rgb(217, 193, 158);
   }
   
   /* Dropdown content (hidden by default) */
@@ -90,7 +90,7 @@
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: rgb(217, 193, 158);
   }
 
   .mission {
