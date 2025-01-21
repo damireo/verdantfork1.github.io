@@ -172,7 +172,6 @@
             background-color: rgba(83, 145, 70, 0.462);
         }
         .faq-answer {
-            display: none; /* Initially hidden */
             padding: 10px;
             border-left: 3px solid rgba(0, 69, 0, 0.539);
             margin: 0 5px 10px;
