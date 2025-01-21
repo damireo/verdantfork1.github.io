@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Desserts</title>
+    </head>
+    <div class="faq-section">
+        <h2>Desserts</h2>
+        <p>Finish your night with a final treat from the Verdant Fork.</p>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                Postres de Mexico
+            </div>
+            <div class="faq-answer">
+                Churro Bites – Crispy churro pieces tossed in cinnamon sugar and served with a vegan chocolate dipping sauce
+                Mexican Chocolate Avocado Mousse – Creamy mousse with a hint of cinnamon and chili powder, topped with coconut whipped cream
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                Sobremesas do Brasil
+            </div>
+            <div class="faq-answer">
+                Brigadeiro Truffles – Vegan chocolate truffles rolled in shredded coconut and chopped nuts
+                Coconut Tapioca Pudding – Light tapioca pudding infused with coconut milk, topped with passion fruit coulis
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                Dolci dall'Italia
+            </div>
+            <div class="faq-answer">
+                Vegan Tiramisu – Layers of coffee-soaked sponge cake with cashew mascarpone and cocoa powder
+                Pistachio Gelato – Silky, vegan pistachio gelato with crushed pistachios on top
+
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                Kayan Zaki daga Nigeria
+            </div>
+            <div class="faq-answer">
+                Puff-Puff Balls – Soft, fried dough balls lightly dusted with powdered sugar
+                Coconut Rice Pudding – Creamy rice pudding with coconut milk and a hint of nutmeg
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                Bhaarat se Mithaee
+            </div>
+            <div class="faq-answer">
+                Vegan Gulab Jamun – Sweet dough balls soaked in rose-flavored syrup
+                Coconut Mango Kheer – Creamy rice pudding made with coconut milk and ripe mango slices
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                Láizì zhōngguó de Tiándiǎn
+            </div>
+            <div class="faq-answer">
+                Sesame Balls (Jian Dui) Glutinous rice flour balls filled with sweet red bean paste, rolled in sesame seeds, and fried to golden perfection. (Vegan) 
+                Mango Sticky Rice Pudding Sweet glutinous rice cooked with coconut milk and served with fresh mango slices. Garnished with a sprinkle of toasted sesame seeds. (Vegan)
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                Pencuci Mulut dari Malaysia
+            </div>
+            <div class="faq-answer">
+                Pandan Coconut Jelly – Refreshing jelly made with pandan juice and coconut milk
+                Banana Fritters – Crispy fried banana slices drizzled with coconut caramel
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleAnswer(questionElement) {
+            const answer = questionElement.nextElementSibling;
+            answer.style.display = answer.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</html>
