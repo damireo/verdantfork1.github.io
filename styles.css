@@ -1,3 +1,17 @@
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+
+    body{
+        background-image: url("https://35photo.pro/photos_main/386/1933730.jpg");
+    }
+
 /* All Scheherazade Families!! */
 .scheherazade-new-regular {
   font-family: "Scheherazade New", serif;
@@ -178,5 +192,256 @@
             background-color: rgba(197, 213, 167, 0.708);
             border-radius: 0 5px 5px 5px;
         }
+    .rewardSU{
+        text-align: center;
+        padding-top: 12%;
+        font-size: 32px;
+        color: hsla(48, 25%, 69%, 0.87);
+        opacity: .95;
+    }
+
+    .signupbtn{
+        width: auto;
+        font-size: small;
+        padding: 10px 18px;
+    }
+
+    /* Set a style for all buttons */
+    button {
+    background-color: hsla(48, 25%, 69%, 0.87);
+    color: rgba(93, 89, 82, 0.651);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 150%;
+    opacity: 1 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    }
+
+    button:hover {
+    opacity: 0.8;
+    }
+
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #e4837c;
+    color:#4a2828;
+    }
+
+    /* Center the image and position the close button */
+    .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    }
+
+    img.avatar {
+    width: 40%;
+    border-radius: 50%;
+    }
+
+    .container {
+    padding: 16px;
+    }
+
+    span.psw {
+    float: right;
+    padding-top: 16px;
+    }
+
+    /* The Modal (background) */
+    .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 100;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    text-align: left;
+    }
+
+    .modal2{
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 100;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        padding-top: 60px;
+        text-align: left;
+        }
+
+    /* Modal Content/Box */
+    .modal-content {
+    background-color: #ffffff;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    }
+
+    /* The Close Button (x) */
+    .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+    color: rgb(248, 150, 150);
+    cursor: pointer;
+    }
+
+    /* Add Zoom Animation */
+    .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+    }
+
+    @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+    }
+    
+    @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+    }
+
+    /* Change styles for span and cancel button on extra small screens */
+    @media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    }
+
+/* STYLE SECTIONING TAGS */
+* { 
+   margin: 0px;
+   padding: 0px;
+}
 
 
+body {
+  background-image: url("https://c.wallhere.com/photos/b5/9e/pond_forest_trees_nature-1034196.jpg!d");  
+}
+
+/*Heading One Taste the World*/
+h1 {
+  color: hsla(48, 45%, 68%, 0.87);
+  opacity: 0.6;
+  font-size: 58px;
+  padding-top: 1em;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: left;
+  position: absolute; right: 650px; top: 170px;
+  text-shadow: 
+    1px 1px 0 #43372d, 
+   -1px 1px 0 #e3ab6a5d,  
+    1px -1px 0 #f5dabe, 
+   -1px -1px 0 #d6be88b7; /* Creates a "border" illusion */
+}
+
+
+/*Heading Two Savor our World*/
+.subtitle{
+  text-align: center;
+  text-shadow: 
+    1px 1px 0 #43372d, 
+   -1px 1px 0 #e3ab6a5d,  
+    1px -1px 0 #f5dabe, 
+   -1px -1px 0 #d6be88b7; /* Creates a "border" illusion */
+   font-size: 58px;
+  padding-top: 20px;
+  color: #d2c389de;
+  position: absolute; left: 700px; top: 280px;
+  opacity: 0.6;
+  font-weight: 500;
+  font-style: italic;  
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.logo{
+  position: absolute; top: 320px; right: 540px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+img {
+  text-align: center;
+}
+
+
+.gpt {
+  max-width:20%;
+  border-radius: 25%;
+  text-align: center;
+}
+
+
+
+
+main {
+  text-align: center;
+  margin-top:0;
+  margin-bottom: 0;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+  /* For the Nav bar! */
+  .navbar {
+    list-style-type: none;
+    background-color: rgba(50, 40, 29, 0.486);  /* 50% opacity background */
+    overflow: hidden;
+    padding: 1em;
+    text-align: right;
+  }
+
+li {
+  display: inline;  
+}
+/*Nav bar Text Menu Rewards etc*/
+  .navbar a {
+    text-decoration: none;
+    color: hsla(47, 81%, 77%, 0.713);
+    font-size: 1.3em;
+    padding: 1em;
+    font-family: 'Playfair Display', serif;
+    text-align: center; /* Center the text inside the link */
+  }
+.navbar a:hover {
+  background-color: rgba(153, 140, 69, 0.484);
+}
+
+.copyright{
+  position: absolute; top: 780px; left:20px;
+}
+
+
+
+.flex-container {      
+  display: flex;       
+  flex-direction: row; 
+  flex-wrap: nowrap;   
+} 
+
+.flex-item {           
+  flex-basis: 100%;    
+  margin: 1%;          
+}
