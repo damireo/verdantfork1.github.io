@@ -196,7 +196,12 @@
         text-align: center;
         padding-top: 12%;
         font-size: 32px;
-        color: hsla(48, 25%, 69%, 0.87);
+        color: hsla(48, 45%, 68%, 0.87);
+        text-shadow: 
+            1px 1px 0 #43372d, 
+           -1px 1px 0 #e3ab6a5d,  
+            1px -1px 0 #f5dabe, 
+           -1px -1px 0 #d6be88b7; /* Creates a "border" illusion */
         opacity: .95;
     }
 
