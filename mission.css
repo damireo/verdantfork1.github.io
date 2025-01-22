@@ -1,0 +1,40 @@
+/* Actual Textbox */
+
+.text{
+  font-family: 'Georgia', serif;
+  font-weight: 100;
+  padding: 20px;
+  position: absolute; top: 200px;
+  left: 1;
+  width: 50%;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 28px;
+  color:rgb(13, 14, 11);
+  background-color:rgba(250, 237, 205, 0.25);
+  border-radius:10px;
+}
+
+/* Image Position */
+.image1{
+  margin-left: 90px;
+  float: right;
+  width: 25%;
+  position: absolute; top:253px; left:800px;
+}
+/* Title Mission*/
+.subtitle{
+  text-align: center;
+
+   font-size: 2em;
+  padding-top: 20px;
+  color: #faedcd;
+  text-shadow: 
+    1px 1px 0 #3d402b, 
+   -1px 1px 0 #3d402b,  
+    1px -1px 0 #3d402b, 
+   -1px -1px 0 #3d402b; 
+  font-weight: 500;
+  font-style: italic;  
+  font-family: 'IBM Plex Mono', monospace;
+}

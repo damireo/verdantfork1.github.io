@@ -68,7 +68,7 @@
   
   /* Add a green background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn, .navbar b:hover {
-    background-color: rgba(183, 177, 152, 0.484);
+    background-color: rgba(190, 183, 152, 0.484);
   }
   
   /* Dropdown content (hidden by default) */
@@ -105,24 +105,8 @@
   }
 
 /*Mission CSS */
-.sustainability {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 10px;
-  background-color: rgba(100, 157, 38, 0.343);
-  border-style:double;
-  border-width: 10px;
-  border-color: rgba(74, 87, 65, 0.506);
-  border-radius: 10px;
-}
-
-.title{
-  text-align: center;
-  font-size: 30px;
-  color: rgba(61, 86, 34, 0.341);
-}
-
 .text{
+  font-family: 'Georgia', serif;
   font-weight: 100;
   padding: 20px;
   position: absolute; top: 200px;
@@ -131,9 +115,33 @@
   text-align: center;
   line-height: 1.5;
   font-size: 28px;
-  color:rgba(64, 95, 43, 0.575);
-  background-color:rgb(211, 226, 200);
+  color:rgb(250, 237, 185);
+  background-color:rgba(250, 237, 205, 0.25);
   border-radius:10px;
+}
+
+/* Image Position */
+.image1{
+  margin-left: 90px;
+  float: right;
+  width: 25%;
+  position: absolute; top:253px; left:800px;
+}
+/* Title Mission*/
+.subtitle{
+  text-align: center;
+
+   font-size: 3em;
+  color: #fff2d2;
+  text-shadow: 
+    1px 1px 0 #3d402b, 
+   -1px 1px 0 #3d402b,  
+    1px -1px 0 #3d402b, 
+   -1px -1px 0 #3d402b; 
+  font-weight: 500;
+  font-style: italic;  
+  font-family: 'IBM Plex Mono', monospace;
+  position: absolute; top: 90px; left: 500px;
 }
 
 
