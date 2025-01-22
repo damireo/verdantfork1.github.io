@@ -12,7 +12,27 @@
         background-image: url("https://35photo.pro/photos_main/386/1933730.jpg");
     }
 
-
+/* All Scheherazade Families!! */
+.scheherazade-new-regular {
+  font-family: "Scheherazade New", serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+ .scheherazade-new-medium {
+  font-family: "Scheherazade New", serif;
+  font-weight: 500;
+  font-style: normal;
+ }
+ .scheherazade-new-semibold {
+  font-family: "Scheherazade New", serif;
+  font-weight: 600;
+  font-style: normal;
+ }
+ .scheherazade-new-bold {
+  font-family: "Scheherazade New", serif;
+  font-weight: 700;
+  font-style: normal;
+ }
    /* Navbar container */
    .navbar {
     overflow: hidden;
@@ -96,6 +116,82 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+/*Mission CSS */
+.sustainability {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(100, 157, 38, 0.343);
+  border-style:double;
+  border-width: 10px;
+  border-color: rgba(74, 87, 65, 0.506);
+  border-radius: 10px;
+  background-image: url("sandcats87.jpeg");
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  color: rgba(61, 86, 34, 0.341);
+}
+
+.text{
+  font-weight: 100;
+  padding: 20px;
+  position: absolute; top: 200px;
+  left: 1;
+  width: 50%;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 28px;
+  color:rgba(64, 95, 43, 0.575);
+  background-color:rgb(211, 226, 200);
+  border-radius:10px;
+}
+
+.image1{
+  padding: 5px;
+  float: right;
+  width: 25%;
+  position: absolute; top:253px; left:800px;
+}
+.image2{
+  padding: 5px;
+  float: right;
+  width: 25%;
+  position: absolute; top:950px; left:800px;
+}
+
+/* Edit these to match color scheme */
+          .faq-section {
+            font-family: 'Poppins', sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(100, 157, 38, 0.343);
+            border-radius: 8px;
+            color:rgba(26, 82, 6, 0.792);
+        }
+        .faq-question {
+            cursor: pointer;
+            font-weight: bold;
+            padding: 10px;
+            border: 1px solid rgb(142, 165, 127);
+            margin: 5px 0;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            color: rgba(26, 82, 6, 0.792);
+        }
+        .faq-question:hover {
+            background-color: rgba(83, 145, 70, 0.462);
+        }
+        .faq-answer {
+            padding: 10px;
+            border-left: 3px solid rgba(0, 69, 0, 0.539);
+            margin: 0 5px 10px;
+            background-color: rgba(197, 213, 167, 0.708);
+            border-radius: 0 5px 5px 5px;
+        }
     .rewardSU{
         text-align: center;
         padding-top: 12%;
