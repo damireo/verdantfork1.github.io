@@ -19,17 +19,22 @@
   font-weight: 700;
   font-style: normal;
  }
+  html{
+    background-color:rgb(56, 65, 52)
+  }
    /* Navbar container */
    .navbar {
     overflow: hidden;
-    color: hsla(48, 45%, 68%, 0.87);
+    color:hsla(46, 24%, 86%, 0.953);
     font-family: scheherazade-new-regular;
+    background-color: rgba(120, 113, 94, 0.331);
+    opacity: .9;
    }
    /* Links inside the navbar */
    .navbar a {
     float: right;
     font-size: 18px;
-    color: hsla(47, 81%, 77%, 0.713);
+    color:hsla(46, 24%, 86%, 0.953);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -37,14 +42,14 @@
    .navbar b {
     float: left;
     font-size: 18px;
-    color: hsla(47, 81%, 77%, 0.713);
+    color:hsla(46, 24%, 86%, 0.953);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
    }
 
    /* The dropdown container */
-.dropdown {
+  .dropdown {
     float: right;
     overflow: hidden;
   }
@@ -54,7 +59,7 @@
     font-size: 18px;
     border: none;
     outline: none;
-    color: hsla(47, 81%, 77%, 0.713);
+    color:hsla(46, 24%, 86%, 0.953);
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
@@ -63,7 +68,7 @@
   
   /* Add a green background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn, .navbar b:hover {
-    background-color: rgb(217, 193, 158);
+    background-color: rgba(183, 177, 152, 0.484);
   }
   
   /* Dropdown content (hidden by default) */
@@ -90,13 +95,9 @@
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: rgb(217, 193, 158);
+    background-color: #ddd;
   }
 
-  .mission {
-    font-family: scheherazade-new-regular;
-    
-  }
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
@@ -113,7 +114,6 @@
   border-width: 10px;
   border-color: rgba(74, 87, 65, 0.506);
   border-radius: 10px;
-  background-image: url("sandcats87.jpeg");
 }
 
 .title{
@@ -136,45 +136,38 @@
   border-radius:10px;
 }
 
-.image1{
-  padding: 5px;
-  float: right;
-  width: 25%;
-  position: absolute; top:253px; left:800px;
-}
-.image2{
-  padding: 5px;
-  float: right;
-  width: 25%;
-  position: absolute; top:950px; left:800px;
-}
 
-/* Edit these to match color scheme */
-          .faq-section {
-            font-family: 'Poppins', sans-serif;
+/* Menu CSS*/
+        .menu{
+          background-color:rgb(56, 65, 52)
+        }
+
+        .faq-section {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 20px;
             padding: 20px;
-            background-color: rgba(100, 157, 38, 0.343);
             border-radius: 8px;
-            color:rgba(26, 82, 6, 0.792);
+            color:hsla(46, 24%, 86%, 0.953);
+
         }
         .faq-question {
             cursor: pointer;
             font-weight: bold;
+            font-style:italic;
+            font-size:x-large;
             padding: 10px;
-            border: 1px solid rgb(142, 165, 127);
             margin: 5px 0;
-            border-radius: 5px;
             transition: background-color 0.3s ease;
-            color: rgba(26, 82, 6, 0.792);
+            color: hsla(40, 30%, 76%, 0.953);
+            text-shadow: rgb(79, 84, 67) 1px 0 10px;
+            position: relative;
+            background-color:rgba(219, 194, 164, 0.152)
         }
-        .faq-question:hover {
-            background-color: rgba(83, 145, 70, 0.462);
-        }
+        
+
         .faq-answer {
-            padding: 10px;
-            border-left: 3px solid rgba(0, 69, 0, 0.539);
             margin: 0 5px 10px;
-            background-color: rgba(197, 213, 167, 0.708);
             border-radius: 0 5px 5px 5px;
+            font-size: 17px;
+            position: relative;
         }
