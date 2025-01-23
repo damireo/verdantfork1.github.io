@@ -77,6 +77,14 @@
             1px -1px 0 #f5dabe, 
            -1px -1px 0 #d6be88b7; /* Creates a "border" illusion */
         opacity: .95;
+        border: 1px #ffffff solid;
+        position: absolute;
+          top: 25%;
+          left:32%;
+          right: 32%;
+          bottom: 25%;
+        background: rgba(255, 255, 255, 0.912);
+        border-radius: 5%;
     }
 
     .signupbtn{
