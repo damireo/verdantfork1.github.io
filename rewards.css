@@ -67,6 +67,7 @@
   position: absolute; top:950px; left:800px;
 }
     .rewardSU{
+        text-align: center;
         font-size: 32px;
         color: hsla(48, 45%, 68%, 0.87);
         text-shadow: 
