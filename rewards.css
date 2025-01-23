@@ -33,102 +33,6 @@
   font-weight: 700;
   font-style: normal;
  }
-   /* Navbar container */
-   .navbar {
-    overflow: hidden;
-    color: hsla(48, 45%, 68%, 0.87);
-    font-family: scheherazade-new-regular;
-   }
-   /* Links inside the navbar */
-   .navbar a {
-    float: right;
-    font-size: 18px;
-    color: hsla(47, 81%, 77%, 0.713);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-   }
-   .navbar b {
-    float: left;
-    font-size: 18px;
-    color: hsla(47, 81%, 77%, 0.713);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-   }
-
-   /* The dropdown container */
-.dropdown {
-    float: right;
-    overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size: 18px;
-    border: none;
-    outline: none;
-    color: hsla(47, 81%, 77%, 0.713);
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
-  
-  /* Add a green background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn, .navbar b:hover {
-    background-color: rgb(217, 193, 158);
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9e6cb;
-    opacity: .7;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    font-size: 12 px;
-    color: rgb(33, 29, 23);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: rgb(217, 193, 158);
-  }
-
-  .mission {
-    font-family: scheherazade-new-regular;
-    
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-/*Mission CSS */
-.sustainability {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 10px;
-  background-color: rgba(100, 157, 38, 0.343);
-  border-style:double;
-  border-width: 10px;
-  border-color: rgba(74, 87, 65, 0.506);
-  border-radius: 10px;
-  background-image: url("sandcats87.jpeg");
-}
 
 .title{
   text-align: center;
@@ -162,36 +66,6 @@
   width: 25%;
   position: absolute; top:950px; left:800px;
 }
-
-/* Edit these to match color scheme */
-          .faq-section {
-            font-family: 'Poppins', sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: rgba(100, 157, 38, 0.343);
-            border-radius: 8px;
-            color:rgba(26, 82, 6, 0.792);
-        }
-        .faq-question {
-            cursor: pointer;
-            font-weight: bold;
-            padding: 10px;
-            border: 1px solid rgb(142, 165, 127);
-            margin: 5px 0;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-            color: rgba(26, 82, 6, 0.792);
-        }
-        .faq-question:hover {
-            background-color: rgba(83, 145, 70, 0.462);
-        }
-        .faq-answer {
-            padding: 10px;
-            border-left: 3px solid rgba(0, 69, 0, 0.539);
-            margin: 0 5px 10px;
-            background-color: rgba(197, 213, 167, 0.708);
-            border-radius: 0 5px 5px 5px;
-        }
     .rewardSU{
         text-align: center;
         padding-top: 12%;
