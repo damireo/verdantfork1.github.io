@@ -29,8 +29,7 @@
 }
 
 h1 {
-  color: hsla(48, 45%, 68%, 0.87);
-  opacity: 0.9;
+  color: hsla(48, 45%, 68%);
   font-size: 4vw; 
   font-family: 'IBM Plex Mono', monospace;
   text-shadow: 
